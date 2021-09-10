@@ -1,0 +1,829 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{d4228325-ab86-4575-8d38-59949d73a0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{84513b37-b08c-49e4-bd15-6f8f6752b18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{8785790c-f93f-411d-90ff-bd2e05bd6334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{ddfb3dc3-ec5a-4752-880c-db14429b78a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{73affc36-76a7-43ee-9dc2-13a65e5a5209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{dbe4a488-41b4-49cf-8cff-49dbace1d532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{51ba2134-09a6-4e4a-a113-fec61f8f954a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\mapTool">
+      <UniqueIdentifier>{cd709ada-5ed1-4736-a821-b2505936d556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\action">
+      <UniqueIdentifier>{8d5674ac-b8ad-4565-af18-66d9a3b3fd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{e755f718-d414-418f-9e57-83111e0fb665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{0fb3dc5a-e851-4dca-8517-49229d7c40c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{3c211f7c-8679-47d5-a7cf-051245edfaff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{fd991e34-d5ed-4443-ad60-ddc29a312d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player">
+      <UniqueIdentifier>{ad4a14c3-948d-4996-8bbd-e06dd1012066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\video">
+      <UniqueIdentifier>{668c954d-52b9-42f8-a41c-91a9e443693d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\miniMap">
+      <UniqueIdentifier>{48071f4d-3377-4e12-a20c-fd663f2c5d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\mapTool\toolType">
+      <UniqueIdentifier>{23a21350-b9fd-4c7a-bc39-41bcc6430b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene">
+      <UniqueIdentifier>{663e7863-7c04-4ffb-a8d0-e70c65f7cd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\tileMap">
+      <UniqueIdentifier>{474e14a8-47a1-498e-9cec-0e0684961713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState">
+      <UniqueIdentifier>{362072bd-24a1-4262-86c7-1d2fc88f9ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\stand">
+      <UniqueIdentifier>{1697a0db-cb59-4493-a3b8-d11236fe104f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Astar">
+      <UniqueIdentifier>{ce3d6f3a-7d76-401a-828c-2751e953be3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\run">
+      <UniqueIdentifier>{aa3d54f4-7af5-411a-bdef-e567bceb41fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UI">
+      <UniqueIdentifier>{046bb003-478d-4a45-8a55-55bf2c5c9fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UI\inGame">
+      <UniqueIdentifier>{9aa0d807-32b1-4368-896e-8d9a417e1c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool">
+      <UniqueIdentifier>{d893b3dd-8c79-4088-86d3-5c6e748521f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool\menuType">
+      <UniqueIdentifier>{d019f8f4-338f-4f17-b4f2-b6393b706500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool\menuType\miniMap">
+      <UniqueIdentifier>{bf18a880-39e3-43e7-839e-2d22a64dc4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool\menuType\state">
+      <UniqueIdentifier>{a00e2eee-470f-43b6-a646-56135c5ce40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool\menuType\pet">
+      <UniqueIdentifier>{224d14c8-343f-4133-b185-e747a062e2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool\menuType\item">
+      <UniqueIdentifier>{991af3ea-9646-45bf-b5d9-4fa5431a329e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool\menuType\system">
+      <UniqueIdentifier>{505943a6-5486-4699-8639-2e006025b3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\menuTool\menuType\base">
+      <UniqueIdentifier>{e76815a4-0eca-4334-8cf8-f4d8bbd32af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\happy">
+      <UniqueIdentifier>{c6c38d12-2dac-4127-8c1b-7ca7ade0cb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\cry">
+      <UniqueIdentifier>{57eaf117-b9a5-4e9c-a49d-f8a1c152f949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\attack">
+      <UniqueIdentifier>{7b042139-4395-4d50-9ef2-b5a85142e1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\defense">
+      <UniqueIdentifier>{2ad08980-1e28-4fa4-91de-d3497b4f50a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\angry">
+      <UniqueIdentifier>{0093d1f4-f230-4067-8d13-25b39d917749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\hello">
+      <UniqueIdentifier>{b483bc68-9a47-42b5-9238-d0eb0efd5256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\hurt">
+      <UniqueIdentifier>{036861e1-ded4-4fb9-b865-e9cec83ece39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\dead">
+      <UniqueIdentifier>{38b46f3d-7bbf-4931-a065-a5a759b05492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet">
+      <UniqueIdentifier>{e34157c9-6d01-4a5d-a3de-832d8735925c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState">
+      <UniqueIdentifier>{d9dc98c6-f5d7-4a26-b9c0-4eb1eef0effc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\main">
+      <UniqueIdentifier>{e3555180-1483-4cf2-b342-c57f7bf44788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\chracterSelect">
+      <UniqueIdentifier>{d2066a32-c08a-4fb0-ad6b-2d804669d98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\create">
+      <UniqueIdentifier>{8328a1bb-3679-4b83-a651-aed2347815c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\village">
+      <UniqueIdentifier>{197431f0-5e1b-4095-8e22-0a03dac538c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\dungeon">
+      <UniqueIdentifier>{feb01651-a920-485c-9ba0-8e8659ddd7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\battleMap">
+      <UniqueIdentifier>{cd9a5204-8681-4b05-ad30-e2b6acb14c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\battleScene">
+      <UniqueIdentifier>{c0928fe1-f4d9-4d37-b7b6-5bf85dc9778c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\battleMap\battleState">
+      <UniqueIdentifier>{015605c0-a7a7-461f-b9a5-5b5bc68b4743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\battleMap\battleState\state">
+      <UniqueIdentifier>{7e6cd1ff-dfb5-4eda-929c-b5d5ef908670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState\attack">
+      <UniqueIdentifier>{1724702e-4f78-4a4b-84a8-002c1e668fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState\dead">
+      <UniqueIdentifier>{9f3f6bf4-b94f-4fd7-9312-9c594e6d6a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState\defense">
+      <UniqueIdentifier>{9223041e-7262-4526-9926-632aeffc8a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState\hurt">
+      <UniqueIdentifier>{09e8d98e-b48c-4064-9025-b91835821542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState\run">
+      <UniqueIdentifier>{c126bf16-a363-47a7-8eac-d19c98a5f187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState\stand">
+      <UniqueIdentifier>{75b5ebee-9e6c-4f3e-810a-2bab768ae478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\pet\petState\catch">
+      <UniqueIdentifier>{3d23d997-dafd-4d31-9ad3-0ca28a7d0396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player\playerState\stand\seat">
+      <UniqueIdentifier>{492f6873-48bc-4ec8-b3a7-bbd91a1e5075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\item">
+      <UniqueIdentifier>{807c4887-7919-4d74-9750-e80a0425eaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\scene\shop">
+      <UniqueIdentifier>{2b20f64e-00a8-4db2-b1d3-54f7f60ecc18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2DGameFramework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="streamManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h">
+      <Filter>2DGameFramework\video</Filter>
+    </ClInclude>
+    <ClInclude Include="miniMap.h">
+      <Filter>2DGameFramework\miniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="UIUIManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIUIManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="mapToolScene.h">
+      <Filter>playGround\mapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="mapTool.h">
+      <Filter>playGround\mapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="tileNode.h">
+      <Filter>playGround\mapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>playGround\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>playGround\UI\inGame</Filter>
+    </ClInclude>
+    <ClInclude Include="menuBar.h">
+      <Filter>playGround\UI\inGame</Filter>
+    </ClInclude>
+    <ClInclude Include="toolType.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolEmpty.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolTile.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolStructure.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolObject.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolFence.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolGate.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolDisplay.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolPlants.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolRock.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolWallBasic.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolWallDungeon.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolNpc.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolEraser.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="renderManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="toolTileType.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="toolSave.h">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClInclude>
+    <ClInclude Include="tileMap.h">
+      <Filter>playGround\tileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState.h">
+      <Filter>playGround\player\playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerStand.h">
+      <Filter>playGround\player\playerState\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="aStarTile.h">
+      <Filter>playGround\Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="playerRun.h">
+      <Filter>playGround\player\playerState\run</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="menuType.h">
+      <Filter>playGround\menuTool\menuType</Filter>
+    </ClInclude>
+    <ClInclude Include="baseType.h">
+      <Filter>playGround\menuTool\menuType\base</Filter>
+    </ClInclude>
+    <ClInclude Include="actionWindow.h">
+      <Filter>playGround\menuTool\menuType\base</Filter>
+    </ClInclude>
+    <ClInclude Include="playerSeat.h">
+      <Filter>playGround\player\playerState\stand\seat</Filter>
+    </ClInclude>
+    <ClInclude Include="playerDead.h">
+      <Filter>playGround\player\playerState\dead</Filter>
+    </ClInclude>
+    <ClInclude Include="playerHurt.h">
+      <Filter>playGround\player\playerState\hurt</Filter>
+    </ClInclude>
+    <ClInclude Include="playerHello.h">
+      <Filter>playGround\player\playerState\hello</Filter>
+    </ClInclude>
+    <ClInclude Include="playerAngry.h">
+      <Filter>playGround\player\playerState\angry</Filter>
+    </ClInclude>
+    <ClInclude Include="playerDefense.h">
+      <Filter>playGround\player\playerState\defense</Filter>
+    </ClInclude>
+    <ClInclude Include="playerAttack.h">
+      <Filter>playGround\player\playerState\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="playerCry.h">
+      <Filter>playGround\player\playerState\cry</Filter>
+    </ClInclude>
+    <ClInclude Include="playerHappy.h">
+      <Filter>playGround\player\playerState\happy</Filter>
+    </ClInclude>
+    <ClInclude Include="stateWindow.h">
+      <Filter>playGround\menuTool\menuType\state</Filter>
+    </ClInclude>
+    <ClInclude Include="pet.h">
+      <Filter>playGround\pet</Filter>
+    </ClInclude>
+    <ClInclude Include="petState.h">
+      <Filter>playGround\pet\petState</Filter>
+    </ClInclude>
+    <ClInclude Include="petWindow.h">
+      <Filter>playGround\menuTool\menuType\pet</Filter>
+    </ClInclude>
+    <ClInclude Include="petInfoWindow.h">
+      <Filter>playGround\menuTool\menuType\pet</Filter>
+    </ClInclude>
+    <ClInclude Include="petSkillWindow.h">
+      <Filter>playGround\menuTool\menuType\pet</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>playGround\scene\main</Filter>
+    </ClInclude>
+    <ClInclude Include="selectScene.h">
+      <Filter>playGround\scene\chracterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="createScene.h">
+      <Filter>playGround\scene\create</Filter>
+    </ClInclude>
+    <ClInclude Include="playerSetting.h">
+      <Filter>playGround\scene\create</Filter>
+    </ClInclude>
+    <ClInclude Include="villageScene.h">
+      <Filter>playGround\scene\village</Filter>
+    </ClInclude>
+    <ClInclude Include="firstDungeonScene.h">
+      <Filter>playGround\scene\dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="battleMap.h">
+      <Filter>playGround\battleMap</Filter>
+    </ClInclude>
+    <ClInclude Include="firstBattleScene.h">
+      <Filter>playGround\scene\battleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="battleState.h">
+      <Filter>playGround\battleMap\battleState</Filter>
+    </ClInclude>
+    <ClInclude Include="battleAppear.h">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClInclude>
+    <ClInclude Include="playerTurn.h">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClInclude>
+    <ClInclude Include="petTurn.h">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClInclude>
+    <ClInclude Include="battleTurn.h">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClInclude>
+    <ClInclude Include="petAttack.h">
+      <Filter>playGround\pet\petState\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="petDead.h">
+      <Filter>playGround\pet\petState\dead</Filter>
+    </ClInclude>
+    <ClInclude Include="petDefense.h">
+      <Filter>playGround\pet\petState\defense</Filter>
+    </ClInclude>
+    <ClInclude Include="petHurt.h">
+      <Filter>playGround\pet\petState\hurt</Filter>
+    </ClInclude>
+    <ClInclude Include="petRun.h">
+      <Filter>playGround\pet\petState\run</Filter>
+    </ClInclude>
+    <ClInclude Include="petStand.h">
+      <Filter>playGround\pet\petState\stand</Filter>
+    </ClInclude>
+    <ClInclude Include="petCatch.h">
+      <Filter>playGround\pet\petState\catch</Filter>
+    </ClInclude>
+    <ClInclude Include="battleClose.h">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="itemWindow.h">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClInclude>
+    <ClInclude Include="itemShopScene.h">
+      <Filter>playGround\scene\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="shopWindow.h">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClInclude>
+    <ClInclude Include="buyItemWindow.h">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClInclude>
+    <ClInclude Include="sellItemWindow.h">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClInclude>
+    <ClInclude Include="systemWindow.h">
+      <Filter>playGround\menuTool\menuType\system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2DGameFramework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="streamManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>2DGameFramework\video</Filter>
+    </ClCompile>
+    <ClCompile Include="miniMap.cpp">
+      <Filter>2DGameFramework\miniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="UIUIManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UIUIManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="mapToolScene.cpp">
+      <Filter>playGround\mapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="mapTool.cpp">
+      <Filter>playGround\mapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>playGround\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>playGround\UI\inGame</Filter>
+    </ClCompile>
+    <ClCompile Include="menuBar.cpp">
+      <Filter>playGround\UI\inGame</Filter>
+    </ClCompile>
+    <ClCompile Include="toolType.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolEmpty.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolTile.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolStructure.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolObject.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolFence.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolGate.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolDisplay.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolPlants.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolRock.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolWallBasic.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolWallDungeon.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolNpc.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolEraser.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="renderManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="toolTileType.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="toolSave.cpp">
+      <Filter>playGround\mapTool\toolType</Filter>
+    </ClCompile>
+    <ClCompile Include="tileMap.cpp">
+      <Filter>playGround\tileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState.cpp">
+      <Filter>playGround\player\playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerStand.cpp">
+      <Filter>playGround\player\playerState\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="aStarTile.cpp">
+      <Filter>playGround\Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="playerRun.cpp">
+      <Filter>playGround\player\playerState\run</Filter>
+    </ClCompile>
+    <ClCompile Include="menuType.cpp">
+      <Filter>playGround\menuTool\menuType</Filter>
+    </ClCompile>
+    <ClCompile Include="baseType.cpp">
+      <Filter>playGround\menuTool\menuType\base</Filter>
+    </ClCompile>
+    <ClCompile Include="actionWindow.cpp">
+      <Filter>playGround\menuTool\menuType\base</Filter>
+    </ClCompile>
+    <ClCompile Include="playerSeat.cpp">
+      <Filter>playGround\player\playerState\stand\seat</Filter>
+    </ClCompile>
+    <ClCompile Include="playerDead.cpp">
+      <Filter>playGround\player\playerState\dead</Filter>
+    </ClCompile>
+    <ClCompile Include="playerHurt.cpp">
+      <Filter>playGround\player\playerState\hurt</Filter>
+    </ClCompile>
+    <ClCompile Include="playerHello.cpp">
+      <Filter>playGround\player\playerState\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="playerAngry.cpp">
+      <Filter>playGround\player\playerState\angry</Filter>
+    </ClCompile>
+    <ClCompile Include="playerDefense.cpp">
+      <Filter>playGround\player\playerState\defense</Filter>
+    </ClCompile>
+    <ClCompile Include="playerAttack.cpp">
+      <Filter>playGround\player\playerState\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="playerCry.cpp">
+      <Filter>playGround\player\playerState\cry</Filter>
+    </ClCompile>
+    <ClCompile Include="playerHappy.cpp">
+      <Filter>playGround\player\playerState\happy</Filter>
+    </ClCompile>
+    <ClCompile Include="stateWindow.cpp">
+      <Filter>playGround\menuTool\menuType\state</Filter>
+    </ClCompile>
+    <ClCompile Include="pet.cpp">
+      <Filter>playGround\pet</Filter>
+    </ClCompile>
+    <ClCompile Include="petState.cpp">
+      <Filter>playGround\pet\petState</Filter>
+    </ClCompile>
+    <ClCompile Include="petWindow.cpp">
+      <Filter>playGround\menuTool\menuType\pet</Filter>
+    </ClCompile>
+    <ClCompile Include="petInfoWindow.cpp">
+      <Filter>playGround\menuTool\menuType\pet</Filter>
+    </ClCompile>
+    <ClCompile Include="petSkillWindow.cpp">
+      <Filter>playGround\menuTool\menuType\pet</Filter>
+    </ClCompile>
+    <ClCompile Include="mainScene.cpp">
+      <Filter>playGround\scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="selectScene.cpp">
+      <Filter>playGround\scene\chracterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="createScene.cpp">
+      <Filter>playGround\scene\create</Filter>
+    </ClCompile>
+    <ClCompile Include="playerSetting.cpp">
+      <Filter>playGround\scene\create</Filter>
+    </ClCompile>
+    <ClCompile Include="villageScene.cpp">
+      <Filter>playGround\scene\village</Filter>
+    </ClCompile>
+    <ClCompile Include="firstDungeonScene.cpp">
+      <Filter>playGround\scene\dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="battleMap.cpp">
+      <Filter>playGround\battleMap</Filter>
+    </ClCompile>
+    <ClCompile Include="firstBattleScene.cpp">
+      <Filter>playGround\scene\battleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="battleState.cpp">
+      <Filter>playGround\battleMap\battleState</Filter>
+    </ClCompile>
+    <ClCompile Include="battleAppear.cpp">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClCompile>
+    <ClCompile Include="playerTurn.cpp">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClCompile>
+    <ClCompile Include="petTurn.cpp">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClCompile>
+    <ClCompile Include="battleTurn.cpp">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClCompile>
+    <ClCompile Include="petAttack.cpp">
+      <Filter>playGround\pet\petState\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="petDead.cpp">
+      <Filter>playGround\pet\petState\dead</Filter>
+    </ClCompile>
+    <ClCompile Include="petDefense.cpp">
+      <Filter>playGround\pet\petState\defense</Filter>
+    </ClCompile>
+    <ClCompile Include="petHurt.cpp">
+      <Filter>playGround\pet\petState\hurt</Filter>
+    </ClCompile>
+    <ClCompile Include="petRun.cpp">
+      <Filter>playGround\pet\petState\run</Filter>
+    </ClCompile>
+    <ClCompile Include="petStand.cpp">
+      <Filter>playGround\pet\petState\stand</Filter>
+    </ClCompile>
+    <ClCompile Include="petCatch.cpp">
+      <Filter>playGround\pet\petState\catch</Filter>
+    </ClCompile>
+    <ClCompile Include="battleClose.cpp">
+      <Filter>playGround\battleMap\battleState\state</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="itemWindow.cpp">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClCompile>
+    <ClCompile Include="itemShopScene.cpp">
+      <Filter>playGround\scene\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="shopWindow.cpp">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClCompile>
+    <ClCompile Include="buyItemWindow.cpp">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClCompile>
+    <ClCompile Include="sellItemWindow.cpp">
+      <Filter>playGround\menuTool\menuType\item</Filter>
+    </ClCompile>
+    <ClCompile Include="systemWindow.cpp">
+      <Filter>playGround\menuTool\menuType\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

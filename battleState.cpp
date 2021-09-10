@@ -1,0 +1,7 @@
+#include "stdafx.h"
+#include "battleState.h"
+#include "playerTurn.h"
+#include "battleAppear.h"
+#include "petTurn.h"
+#include "battleTurn.h"
+#include "battleClose.h"
